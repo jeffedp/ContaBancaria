@@ -20,6 +20,7 @@ public class AtualizadorDeContas {
     
     public void roda(Conta c){
         System.out.println("Saldo Anterior:" + c.getSaldo());
+        System.out.println("teste");
         c.atualiza(this.selic);
         System.out.println("Saldo Final:" + c.getSaldo());
         saldoTotal += c.getSaldo();
